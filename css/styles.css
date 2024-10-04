@@ -1,0 +1,12 @@
+:root {
+  --cor-de-fundo: #EBECEE;
+}
+
+html {
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+}
