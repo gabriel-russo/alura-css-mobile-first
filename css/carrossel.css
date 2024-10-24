@@ -12,13 +12,15 @@
 .swiper {
   width: 100%;
   height: auto;
+  margin-top: 1em;
 }
 
 .swiper-slide img {
   width: 100%;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
   display: none !important;
 }
 
@@ -82,3 +84,27 @@
 }
 
 /* Recomendação interesse fim */
+
+@media screen and (min-width: 1024px) {
+  .carrossel__titulo {
+    font-size: 1.5em;
+  }
+
+  .swiper {
+    width: 60%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: initial !important;
+    top: 45% !important;
+  }
+
+  .card {
+    width: 50%;
+    margin: 2em auto;
+  }
+
+
+
+}
