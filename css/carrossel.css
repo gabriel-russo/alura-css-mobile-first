@@ -60,6 +60,7 @@
 
 .descricao__texto {
   font-size: 0.8em;
+  font-weight: 300;
 }
 
 .card__botoes {
@@ -105,6 +106,39 @@
     margin: 2em auto;
   }
 
+  .descricao {
+    width: 65%;
+  }
 
+}
+
+@media screen and (min-width: 1728px) {
+  .carrossel__container {
+    display: flex;
+    align-items: center;
+    gap: 5em;
+    margin: 3em 20%;
+  }
+
+  .swiper {
+    width: 55%;
+  }
+
+  .swiper-pagination {
+    margin: 1em 0;
+  }
+
+  .descricao__titulo {
+    font-size: 2em;
+  }
+
+  .descricao__texto {
+    font-size: 1em;
+  }
+
+  .card {
+    width: 60%;
+    margin-bottom: 4.5em;
+  }
 
 }
